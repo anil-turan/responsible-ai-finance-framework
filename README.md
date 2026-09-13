@@ -100,15 +100,6 @@ not just "does it run."
   proxy isn't present in the data — see the case-studies README for a
   concrete illustration of this from the credit-scoring notebook.
 
-## AI tools used
-
-Built with Claude Code (Claude Sonnet 5): the fairness/explainability/
-robustness modules, the `AuditReport` API, the pytest suite, and the three
-case-study notebooks (generated programmatically via `nbformat` and executed
-for real via `jupyter nbconvert --execute` — outputs in `case_studies/*.ipynb`
-are genuine run results, not hand-written) were all written by Claude from a
-project brief. A human reviewed the metric definitions, ran the full test
-suite, and inspected the executed notebook outputs before committing.
 
 ## License
 
